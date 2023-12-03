@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+<button id="openModalBtn">Открыть модальное окно</button>
+
+<div class="modal">
+    <h1>Модальное окно</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores, aliquam provident in nisi vel quaerat? Temporibus minima itaque recusandae quis corporis dolore quaerat, fuga molestias cupiditate doloribus labore quas ab.</p>
+    <button id="closeModalBtn">Закрыть</button>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<!-- <button id="toggleMenuBtn">Меню</button>
+
+<div id="dropdownMenu" class="dropdown-content">
+    <a href="#">Punkt 1</a>
+    <a href="#">Punkt 2</a>
+    <a href="#">Punkt 3</a>
+    <a href="#">Punkt 4</a>
+</div> -->
+<ul class="main-menu">
+    <li> <a href="#">Punkt 1</a></li>
+    <li> <a href="#">Punkt 2</a>
+    <ul class="submenu">
+        <li> <a href="#">PodPunkt 2.1</a></li>
+        <li> <a href="#">PodPunkt 2.2</a></li>
+        <li> <a href="#">PodPunkt 2.3</a></li>
+    </ul>
+    </li>
+    <li> <a href="#">Punkt 3</a></li>
+</ul>
+<br>
+<br>
+<br>
+<br>
+<div id="slider-container">
+    <div class="slide">
+        <img src="ch-1.jpg" alt="pic">
+    </div>
+    <div class="slide">
+        <img src="ch-10.jpg" alt="pic">
+    </div>
+    <div class="slide">
+        <img src="ch-3.jpg" alt="pic">
+    </div>
+    <button id="prevBtn">Предыдущий</button>
+    <button id="nextBtn">Следующий</button>
+</div>
+
+<form id="feedbackForm" action="#">
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name">
+    
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email">
+    
+    <label for="message">Message</label>
+    <input type="text" id="message" name="message">
+    
+    <button type="submit">submit</button>
+</form>
+
+
+<script defer src="main.js"></script>
+</body>
+</html>

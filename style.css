@@ -1,0 +1,90 @@
+body{
+    position: relative;
+    height: 100vh;
+}
+.modal {
+    display: none;
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    width: 400px;
+    height: 200px;
+    background-color: red;
+    padding: 20px;
+}
+.modal-show{
+    display: block;
+}
+.dropdown-content {
+    display: none; /* Скрыть для выпадающего меню */
+    position: absolute;
+    width: 100px;
+    box-shadow: 0px 8px 10px 0px #000;
+}
+.dropdown-content a{
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+    color: #f90202;
+}
+.dropdown-content a:hover{
+    background-color: #ffa6a6;
+}
+
+.main-menu{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.main-menu li{
+    display: inline-block;
+    position: relative;
+    }
+.main-menu a{
+    display: block;
+    padding: 10px;
+
+}
+.submenu{
+    display: none;
+    position: absolute;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background: #f90202;
+    z-index: 1;
+}
+.submenu li{
+    display: block;
+    padding: 10px;
+    
+
+}
+#slider-container{
+    position: relative;
+    overflow: hidden;
+    width: 500px;
+    height: 500px;
+}
+.slide{
+    position: absolute;
+    width: 100%;
+}
+.slide img{
+    width: 100%;
+    height: auto;
+}
+#slider-container button{
+    position: absolute;
+    top: 50%;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+#prevBtn{
+    left: 0;
+}
+#nextBtn{
+    right: 0;
+}
